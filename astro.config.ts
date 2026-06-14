@@ -21,7 +21,7 @@ import { expressiveCodeOptions, siteConfig } from "./src/site.config";
 export default defineConfig({
 	site: siteConfig.url,
 	site: "https://decoding-invisible-systems.netlify.app",
-	base: "/Decoding-invisible-systems",
+	base: "/",
 	image: {
 		domains: ["webmention.io"],
 	},
