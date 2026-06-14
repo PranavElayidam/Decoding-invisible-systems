@@ -20,7 +20,7 @@ import { expressiveCodeOptions, siteConfig } from "./src/site.config";
 // https://astro.build/config
 export default defineConfig({
 	site: siteConfig.url,
-	site: "https://PranavElayidam.github.io",
+	site: "https://decoding-invisible-systems.netlify.app",
 	base: "/Decoding-invisible-systems",
 	image: {
 		domains: ["webmention.io"],
