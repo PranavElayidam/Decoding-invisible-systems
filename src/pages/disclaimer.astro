@@ -1,0 +1,114 @@
+---
+// src/pages/disclaimer.astro
+import PageLayout from "@/layouts/Base.astro";
+
+const meta = {
+	description:
+		"Licensing framework, liability disclaimers, and bot policies for Decoding Invisible Systems.",
+	title: "Licensing & Disclaimer",
+};
+---
+
+<PageLayout meta={meta}>
+	<div class="text-textColor space-y-6">
+		<h1 class="title mb-6 text-2xl font-bold sm:text-3xl">Licensing & Disclaimer</h1>
+		<p class="text-zinc-400">Last updated: June 2026</p>
+
+		<hr class="border-zinc-700" />
+
+		<section class="space-y-3">
+			<h2 class="text-accent text-xl font-semibold">1. Copyright</h2>
+			<p>
+				Everything I write on this site—including essays, structural logs, map data, and code
+				samples—belongs to me unless I specify otherwise.
+			</p>
+			<p class="rounded border border-zinc-700 bg-zinc-800/50 p-3 font-mono text-xs">
+				Copyright &copy; 2026 Pranav A Elayidam. All Rights Reserved.
+			</p>
+		</section>
+
+		<section class="space-y-3">
+			<h2 class="text-accent text-xl font-semibold">2. Sharing Content (CC BY 4.0)</h2>
+			<p>
+				I believe in open data. All my original writing and research files are licensed under the
+				<a
+					href="https://creativecommons.org/licenses/by/4.0/"
+					class="text-accent hover:text-textColor underline"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Creative Commons Attribution 4.0 International (CC BY 4.0)
+				</a> engine.
+			</p>
+			<p><strong>This means you are free to:</strong></p>
+			<ul class="list-inside list-disc space-y-1 ps-2">
+				<li>Copy, share, redistribute, and mirror this material anywhere you want.</li>
+				<li>Remix, translate, or build on top of the content, even for commercial projects.</li>
+			</ul>
+			<p><strong>The only condition:</strong></p>
+			<p>
+				You must give clear credit by naming me (Pranav A Elayidam) and providing a direct link back
+				to the original post on <em>Decoding Invisible Systems</em>.
+			</p>
+		</section>
+
+		<section class="space-y-3">
+			<h2 class="text-accent text-xl font-semibold">3. Technical Liability Shield</h2>
+			<p>
+				The data maps, network configurations, and computing breakdowns on this blog are shared
+				strictly for educational and research purposes.
+			</p>
+			<p>
+				I don't offer warranties or guarantees that these models are perfectly accurate or stable
+				over time. If you copy an architecture setup, look at an infrastructure map, or test a code
+				pattern, you do so completely at your own risk.
+			</p>
+			<p class="text-textColor font-semibold">
+				I am not responsible if you break a real-world system, cause data loss, crash hardware, or
+				misinterpret behavioral data models.
+			</p>
+		</section>
+
+		<section class="space-y-3">
+			<h2 class="text-accent text-xl font-semibold">4. Open-Source Template Attribution</h2>
+			<p>
+				The code engine, design layout, and Tailwind CSS rules for this website are built on top of
+				the open-source
+				<a
+					href="https://github.com/chrismwilliams/astro-theme-cactus"
+					class="text-accent hover:text-textColor underline"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					astro-theme-cactus
+				</a> template.
+			</p>
+			<p>
+				The boilerplate software remains attributed to the creator. You can review his development
+				profile directly at his GitHub handle:
+				<a
+					href="https://github.com/chrismwilliams"
+					class="text-accent hover:text-textColor underline"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					@chrismwilliams
+				</a>.
+			</p>
+		</section>
+
+		<section class="space-y-3 border-t border-zinc-800 pt-6">
+			<h2 class="text-accent text-xl font-semibold">5. Automated Scraper & AI Bot Policy</h2>
+			<p>
+				If you are a web crawler, automated script, scraping engine, or an AI bot harvesting data:
+				<strong>Do not scrape this site to train commercial models without explicit consent.</strong
+				>
+			</p>
+			<p>
+				Automated parsing of the markdown files inside my content directories for the purpose of
+				ingestion into LLM training sets, commercial data brokers, or uncredited mirrors is a direct
+				violation of this site's terms. Respect the <code>robots.txt</code> file rules.
+			</p>
+		</section>
+	</div>
+</PageLayout>
