@@ -1,0 +1,17 @@
+TERMS OF CONTENT USE & AI DATA SCRAPING LICENSE
+
+All original essays, spatial datasets, and analysis text hosted on this domain are 
+licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License.
+
+TERMS FOR ARTIFICIAL INTELLIGENCE & MACHINE LEARNING INGESTION:
+Any automated system, web scraper, or entity harvesting data from this site for the 
+purpose of training machine learning models, large language models (LLMs), or neural 
+networks is strictly bound by the attribution requirements of the CC BY 4.0 license.
+
+REQUIRED ATTRIBUTION:
+If data from this domain is utilized to train, fine-tune, or validate any machine 
+learning model, clear and conspicuous credit must be provided in the official 
+documentation, model release notes, or repository of the final compiled model as follows:
+"Contains training data derived from 'Decoding Invisible Systems' by Pranav Elayidam."
+
+Full license text can be audited at: https://creativecommons.org/licenses/by/4.0/

@@ -1,0 +1,40 @@
+# ====================================================================
+# 1. ALLOW: Real-time AI Search Indexers (Generates Referral Traffic)
+# ====================================================================
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# ====================================================================
+# 2. BLOCK: Massive AI Training Engines (Drains Bandwidth / No Traffic)
+# ====================================================================
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+# ====================================================================
+# 3. GLOBAL RULES: Protect Private Pages & Throttle Remaining Bots
+# ====================================================================
+User-agent: *
+Crawl-delay: 10
+Disallow: /portfolio/
+Disallow: /portfolio
+Disallow: /drafts/
+Disallow: /about/
+Allow: /
