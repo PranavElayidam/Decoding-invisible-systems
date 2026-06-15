@@ -38,3 +38,5 @@ Disallow: /portfolio
 Disallow: /drafts/
 Disallow: /about/
 Allow: /
+
+Sitemap: https://decoding-invisible-systems.netlify.app/sitemap-index.xml
